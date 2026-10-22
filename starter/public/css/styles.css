@@ -1,3 +1,9 @@
+body.pokedex-bg {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+}
+
 /* Scrollable Catalog Container */
 .catalog-scroll-container {
   max-height: 72vh;
@@ -7,12 +13,13 @@
 /* Card Interactivity */
 .char-card {
   cursor: pointer;
-  transition: transform 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .char-card:hover {
   transform: translateY(-4px);
   border-color: #dc3545 !important;
+  box-shadow: 0 0.5rem 1rem rgba(220, 53, 69, 0.15) !important;
 }
 
 .char-card-img {
@@ -24,9 +31,17 @@
 .characters-detail-img {
   max-height: 200px;
   object-fit: contain;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
 }
 
 .moves-scroll-box {
   max-height: 130px;
   overflow-y: auto;
+}
+
+.type-badge {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85rem;
+  padding: 0.4em 0.8em;
 }
