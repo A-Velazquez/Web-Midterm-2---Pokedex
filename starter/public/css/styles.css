@@ -66,11 +66,7 @@ body.pokedex-bg {
 .type-fairy    { background-color: #D685AD !important; color: white !important; }
 .type-normal   { background-color: #A8A77A !important; color: white !important; }
 
-.sprite-wrapper {
-  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
-  border-radius: 20px !important;
-  padding: 1.5rem !important;
-}
+
 
 .characters-detail-img {
   max-height: 190px;
