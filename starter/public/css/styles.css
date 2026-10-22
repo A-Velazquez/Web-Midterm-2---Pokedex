@@ -45,3 +45,58 @@ body.pokedex-bg {
   font-size: 0.85rem;
   padding: 0.4em 0.8em;
 }
+
+/* Official Pokémon Type Colors */
+.type-fire     { background-color: #EE8130 !important; color: white !important; }
+.type-water    { background-color: #6390F0 !important; color: white !important; }
+.type-grass    { background-color: #7AC74C !important; color: white !important; }
+.type-electric { background-color: #F7D02C !important; color: #212529 !important; }
+.type-ice      { background-color: #96D9D6 !important; color: #212529 !important; }
+.type-fighting { background-color: #C22E28 !important; color: white !important; }
+.type-poison   { background-color: #A33EA1 !important; color: white !important; }
+.type-ground   { background-color: #E2BF65 !important; color: white !important; }
+.type-flying   { background-color: #A98FF3 !important; color: white !important; }
+.type-psychic  { background-color: #F95587 !important; color: white !important; }
+.type-bug      { background-color: #A6B91A !important; color: white !important; }
+.type-rock     { background-color: #B6A136 !important; color: white !important; }
+.type-ghost    { background-color: #735797 !important; color: white !important; }
+.type-dragon   { background-color: #6F35FC !important; color: white !important; }
+.type-dark     { background-color: #705746 !important; color: white !important; }
+.type-steel    { background-color: #B7B7CE !important; color: #212529 !important; }
+.type-fairy    { background-color: #D685AD !important; color: white !important; }
+.type-normal   { background-color: #A8A77A !important; color: white !important; }
+
+.sprite-wrapper {
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+  border-radius: 20px !important;
+  padding: 1.5rem !important;
+}
+
+.characters-detail-img {
+  max-height: 190px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.35));
+}
+
+.sprite-wrapper:hover .characters-detail-img {
+  transform: scale(1.08) translateY(-4px);
+}
+
+#modal-types .badge {
+  border-radius: 50rem !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.moves-scroll-box::-webkit-scrollbar,
+.catalog-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.moves-scroll-box::-webkit-scrollbar-thumb,
+.catalog-scroll-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}

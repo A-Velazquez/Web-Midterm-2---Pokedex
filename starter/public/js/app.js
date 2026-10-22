@@ -170,11 +170,11 @@ function populateModal(character) {
   modalHeight.textContent = character.height ?? '-';
   modalWeight.textContent = character.weight ?? '-';
 
-  // Render Types
+  // Render Types with dynamic colors based on type
   modalTypes.innerHTML = '';
   (character.types || []).forEach((type) => {
     const badge = document.createElement('span');
-    badge.className = 'badge bg-info text-uppercase px-3 py-2';
+    badge.className = `badge type-${type.toLowerCase()} text-uppercase px-3 py-2`;
     badge.textContent = type;
     modalTypes.appendChild(badge);
   });
